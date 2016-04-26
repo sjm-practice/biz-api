@@ -1,1 +1,1 @@
-import '../../ui/welcome.js';
+import '../../ui/hello.js';
