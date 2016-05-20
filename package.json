@@ -4,7 +4,8 @@
   "scripts": {
     "start": "meteor run",
     "lint": "eslint .",
-    "pretest": "npm run lint --silent"
+    "pretest": "npm run lint --silent",
+    "unittests": "mocha ./tests/unit --compilers js:babel-register"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0"
