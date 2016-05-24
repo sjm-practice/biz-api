@@ -5,8 +5,8 @@
     "start": "meteor run",
     "lint": "eslint .",
     "pretest": "npm run lint --silent",
-    "test": "mocha ./tests/unit --compilers js:babel-register",
-    "etest": "chimp --ddp=http://localhost:3000 --mocha --chai --path=./tests/end-to-end/mocha --browser=phantomjs"
+    "mocha-unit": "mocha ./tests/unit --compilers js:babel-register",
+    "chimp": "chimp --ddp=http://localhost:3000 --mocha --chai --path=./tests/end-to-end/mocha --browser=phantomjs"
   },
   "dependencies": {
     "meteor-node-stubs": "~0.2.0"
